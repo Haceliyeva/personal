@@ -1,0 +1,368 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+header {
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menuItems {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+
+}
+
+nav .menuItem {
+    position: relative;
+}
+
+nav .menuItems .menuItem a {
+    font-weight: 500;
+}
+
+nav .dropdown {
+    position: absolute;
+    background-color: #a05353;
+    padding: 10px 20px;
+    width: 200px;
+    top: 36px;
+    display: none;
+
+
+}
+
+nav .menuItem:hover .dropdown {
+    display: block;
+}
+
+.hamburgerIcon {
+    display: none;
+}
+
+.hero-section {
+    padding: 40px 0;
+    background-color: #F9F9FF;
+}
+
+.hero-section-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/*  */
+.heroSectionText h5 {
+    font-size: 17px;
+    font-weight: 200;
+    font-style: initial;
+
+}
+
+.heroSectionText {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.heroSectionText h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.heroSectionText p {
+    color: #9D98A3;
+
+}
+
+.heroSectionText p {
+    font-size: 18px;
+    font-style: initial;
+}
+
+.heroSectionText button {
+    width: 190px;
+    line-height: 40px;
+    color: white;
+    background-color: #66B8FC;
+    border: #66B8FC;
+}
+
+.MenuItemActive {
+    color: #66B8FC;
+}
+
+.details-section {
+    padding: 40px 0;
+}
+
+.detailsContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.personal h5 {
+    font-size: 17px;
+}
+
+.personal h1 {
+    font-size: 30px;
+}
+
+.personal p {
+    font-size: 17px;
+    color: #9D98A3;
+}
+
+.personal button {
+    width: 200px;
+    line-height: 35px;
+    color: white;
+    background-color: #66B8FC;
+    border: #66B8FC;
+}
+
+.serviceHeadText {
+    text-align: center;
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.serviceHeadText h2 {
+    font-size: 37px;
+    font-weight: 20px;
+}
+
+.serviceHeadText p {
+    font-size: 18px;
+    color: #9D98A3;
+}
+
+.servicesCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+}
+
+.servicesCard {
+    width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.servicesCard-icon {
+    font-size: 30px;
+}
+
+.servicesCards h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.servicesCards p {
+    font-size: 18px;
+    color: #9D98A3;
+}
+
+.services-section {
+    padding: 100px 0;
+}
+
+.coffeeSection {
+    background-color: #66B8FC;
+}
+
+.coffee-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.projectsText h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F9F9FF;
+}
+
+.projectsText p {
+    font-weight: 300;
+    color: #F9F9FF;
+}
+
+.happyText h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F9F9FF;
+}
+
+.happyText p {
+    font-weight: 300;
+    color: #F9F9FF;
+}
+
+.cupsText h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F9F9FF;
+}
+
+.cupsText p {
+    font-weight: 300;
+    color: #F9F9FF;
+}
+
+.realText h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F9F9FF;
+}
+
+.realText p {
+    font-weight: 300;
+    color: #F9F9FF;
+}
+
+.ourHeadText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 15px;
+}
+
+.ourCards {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.ourCard {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ourCardImgBox {
+    width: 100%;
+}
+
+.ourCardImgBox img {
+    width: 100%;
+}
+
+.ourCardText {
+    text-align: center;
+}
+
+.ourHeadText ul {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.ourHeadText h1 {
+    font-size: 40px;
+
+}
+
+.ourHeadText p {
+    font-size: 17px;
+    color: #9D98A3;
+}
+
+.ourCardText h4 {
+    font-size: 20px;
+}
+
+.ourCardText p {
+    font-size: 17px;
+    color: #9D98A3;
+}
+
+
+@media screen and (min-width :0) and (max-width:991px) {
+    .hamburgerIcon {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero-section-content {
+        flex-direction: column;
+    }
+
+    .heroSectionImg img {
+        max-width: 90%;
+    }
+
+    .detailsContent {
+        flex-direction: column;
+    }
+
+    .detailsImgBox img {
+        max-width: 90%;
+    }
+
+    .servicesCards {
+        justify-content: center;
+
+
+    }
+
+    .coffee-content {
+        justify-content: center;
+    }
+}
